@@ -1,0 +1,49 @@
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	
+}
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("banner-html5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 600px;
+}
+
+/*Traka kod home i news-a*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	top: 600px;
+	
+}
+/*hoće li blokovi biti lijevo ili desno kod <ul>*/
+li {
+	float: left;
+}
+/*uredivanje blokova <li><a*/
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+/*boja linka kada prode mis*/
+li a:hover {
+	background-color: #yellow;
+}
+
+
