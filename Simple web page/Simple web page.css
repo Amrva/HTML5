@@ -1,0 +1,15 @@
+head, html{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 12;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
